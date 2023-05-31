@@ -20,3 +20,5 @@ def show_home_page():
     st.write("3. Click on the 'Predict' button to obtain the predicted outcome.")
     st.write("4. Explore the 'Explore' section for more insights and analysis.")
     st.write("4. Click on the 'Contact' section for more informations about our team.")
+    
+    st.image(Image.open("qr.png"))
