@@ -8,8 +8,8 @@ from feedback_page import show_feedback_page
 #page = st.sidebar.selectbox("Explore Or Predict", ("Predict", "Explore"))
 selected = option_menu(
     menu_title=None,
-    options=["Home","Predict","Explore","Contact","Feedback"],
-    icons = ["house", "search", "book", "envelope","envelope-paper"],
+    options=["Home","Predict","Contact","Feedback"],
+    icons = ["house", "search", "envelope","envelope-paper"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
